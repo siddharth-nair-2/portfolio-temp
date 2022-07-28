@@ -17,7 +17,7 @@ const Home = () => {
           I am passionate about building excellent software that improves the
           lives of those around me. Coding is something I've been passionate
           about since I was a child, and over the years my love for the field
-          has only grown. look around!
+          has only grown. Look around!
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#E6536C] hover:border-[#E6536C]">
