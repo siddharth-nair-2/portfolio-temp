@@ -1,12 +1,12 @@
 import React from "react";
-import AdminImg from "../assets/adminimg.png";
-import FootyShop from "../assets/footyshop.png";
+import AdminSide from "../assets/adminside.gif";
+import FootyShop from "../assets/footyshopgif.gif";
 
 const projectsArr = [
   {
     id: 1,
     name: "Admin Dashboard",
-    img: AdminImg,
+    img: AdminSide,
     demo: "https://luminous-mermaid-b5e898.netlify.app/",
     code: "https://github.com/siddharth-nair-2/Ecommerce-Project/tree/main/Admin",
   },
@@ -21,7 +21,10 @@ const projectsArr = [
 
 const Work = () => {
   return (
-    <div className="w-full md:h-screen text-gray-300 mb-[400px] md:mb-0" name="work">
+    <div
+      className="w-full md:h-screen text-gray-300 mb-[400px] md:mb-0"
+      name="work"
+    >
       <div className="max-w-[1000px] mx-auto px-16 p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#E6536C]">
