@@ -1,6 +1,7 @@
 import React from "react";
 import AdminSide from "../assets/adminside.gif";
 import FootyShop from "../assets/footyshopgif.gif";
+import Weather from "../assets/weather.gif";
 
 const projectsArr = [
   {
@@ -16,6 +17,13 @@ const projectsArr = [
     img: FootyShop,
     demo: "https://delightful-cascaron-a4fa91.netlify.app/",
     code: "https://github.com/siddharth-nair-2/Ecommerce-Project/tree/main/Client",
+  },
+  {
+    id: 3,
+    name: "Weather App",
+    img: Weather,
+    demo: "https://serene-zabaione-d5023e.netlify.app/",
+    code: "https://github.com/siddharth-nair-2/weather-app",
   },
 ];
 
