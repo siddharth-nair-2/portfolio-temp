@@ -46,43 +46,43 @@ const ContactForm = () => {
           </button>
         </form>
       </div>
-      <div className="lg:hidden">
-        <ul className="flex justify-center gap-4">
-          <li className="w-[60px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-blue-600 rounded-lg">
+      <div className=" pb-16 lg:hidden">
+        <ul className=" w-[90%] mx-auto grid grid-cols-2 gap-4">
+          <li className="w-[160px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-blue-600 rounded-lg  mx-auto my-4">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/siddharth-nair2/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size={30} />
+              Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[60px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-[#333333] rounded-lg">
+          <li className="w-[160px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-[#333333] rounded-lg  mx-auto my-4">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/siddharth-nair-2"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size={30} />
+              Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[60px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-[#6fc2b0] rounded-lg">
+          <li className="w-[160px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-[#6fc2b0] rounded-lg  mx-auto my-4">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:nairsid2@gmail.com"
             >
-              <HiOutlineMail size={30} />
+              Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[60px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-[#565f69] rounded-lg">
+          <li className="w-[160px] h-[60px] flex justify-between items-center hover:mt-[-10px] duration-300 bg-[#565f69] rounded-lg  mx-auto my-4">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="resume.pdf"
               download="Siddharth-Nair-Resume.pdf"
             >
-              <BsFillPersonLinesFill size={30} />
+              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
