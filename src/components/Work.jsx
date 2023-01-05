@@ -2,14 +2,15 @@ import React from "react";
 import AdminSide from "../assets/adminside.gif";
 import FootyShop from "../assets/footyshopgif.gif";
 import Weather from "../assets/weather.gif";
+import Chat from "../assets/arenaapp.gif";
 
 const projectsArr = [
   {
     id: 1,
-    name: "Admin Dashboard",
-    img: AdminSide,
-    demo: "https://luminous-mermaid-b5e898.netlify.app/",
-    code: "https://github.com/siddharth-nair-2/Ecommerce-Project/tree/main/Admin",
+    name: "Arena Chat",
+    img: Chat,
+    demo: "https://temp-arena-chat.herokuapp.com/",
+    code: "https://github.com/siddharth-nair-2/Arena-chat-app",
   },
   {
     id: 2,
@@ -24,6 +25,13 @@ const projectsArr = [
     img: Weather,
     demo: "https://serene-zabaione-d5023e.netlify.app/",
     code: "https://github.com/siddharth-nair-2/weather-app",
+  },
+  {
+    id: 4,
+    name: "Admin Dashboard",
+    img: AdminSide,
+    demo: "https://luminous-mermaid-b5e898.netlify.app/",
+    code: "https://github.com/siddharth-nair-2/Ecommerce-Project/tree/main/Admin",
   },
 ];
 
@@ -54,7 +62,7 @@ const Work = () => {
               >
                 {/* hover  */}
                 <div className="opacity-0 group-hover:opacity-100">
-                  <span className="text-2xl font-bold text-white tracking-wider text-center">
+                  <span className="text-2xl font-bold text-white tracking-wider text-center ml-4">
                     {item.name}
                   </span>
                   <div className="pt-8 text-center">
